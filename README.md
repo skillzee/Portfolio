@@ -69,8 +69,7 @@ You can deploy this portfolio on platforms like:
 
 Want to connect or hire me? Reach out through the contact form on the website or directly:
 
-- Email: [your-email@example.com]  
-- LinkedIn: [Your LinkedIn]  
+- Email: [parthsharma17122004@gmail.com]  
 - GitHub: [https://github.com/skillzee](https://github.com/skillzee)  
 
 ---
