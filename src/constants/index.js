@@ -10,9 +10,20 @@ const navLinks = [
   {
     name: "Skills",
     link: "#skills",
+  },
+  {
+    name: "Resume",
+    link: "/resume.pdf",
+    external: true,
+    download: true
+  },
+  {
+    name: "Video CV",
+    link: "https://drive.google.com/file/d/16PSeizNVkYnC8M3qBoTKjA9qHKSQrKiP/view?usp=drive_link",
+    external: true
   }
-  
 ];
+
 
 const words = [
   { text: "FullStack Developer", imgPath: "/images/designs.svg" },

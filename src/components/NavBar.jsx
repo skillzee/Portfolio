@@ -30,16 +30,29 @@ const NavBar = () => {
         </a>
 
         <nav className="desktop">
-          <ul>
-            {navLinks.map(({ link, name }) => (
-              <li key={name} className="group">
-                <a href={link}>
-                  <span>{name}</span>
-                  <span className="underline" />
-                </a>
-              </li>
-            ))}
-          </ul>
+        <ul>
+  {navLinks.map(({ link, name, external, download }) => (
+    <li key={name} className="group">
+      {external ? (
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          {...(download ? { download: true } : {})}
+        >
+          <span>{name}</span>
+          <span className="underline" />
+        </a>
+      ) : (
+        <a href={link}>
+          <span>{name}</span>
+          <span className="underline" />
+        </a>
+      )}
+    </li>
+  ))}
+</ul>
+
         </nav>
 
         <a href="#contact" className="contact-btn group">
